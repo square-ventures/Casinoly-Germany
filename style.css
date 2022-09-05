@@ -71,8 +71,9 @@ body {
 }
 @media screen and (min-width: 650px) {
   .logo {
-    width: 250px;
-    height: 138px;
+    width: 180px;
+    height: 100px;
+    margin-bottom: 48px;
   }
 }
 
@@ -82,7 +83,7 @@ body {
 @media screen and (min-width: 650px) {
   .main-image {
     width: 582px;
-    height: 285px;
+    height: 308px;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -184,8 +185,8 @@ body {
 }
 @media screen and (min-width: 650px) {
   .payment-special {
-    width: 206px;
-    height: 64px;
+    width: 180px;
+    height: 56px;
     display: block;
   }
 }
