@@ -1,0 +1,271 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  background-image: url(assets/mobile-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+@media screen and (min-width: 650px) {
+  body {
+    background-image: url(assets/tablet_portrait.png);
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url(assets/tablet_1024.png);
+  }
+}
+@media screen and (min-width: 1920px) {
+  body {
+    background-image: url(assets/Desktop_fullHD.png);
+  }
+}
+@media screen and (min-width: 3000px) {
+  body {
+    background-image: url(assets/desktop-4k.png);
+  }
+}
+
+.wrapper {
+  padding: 0 24px 0 24px;
+}
+
+.first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  margin-bottom: 42px;
+}
+@media screen and (min-width: 650px) {
+  .logo {
+    width: 250px;
+    height: 138px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+}
+
+@media screen and (min-width: 650px) {
+  .main-image {
+    width: 582px;
+    height: 285px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .main-image {
+    width: 850px;
+    height: 504px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .cta-button {
+    width: 186px;
+    height: 44px;
+    margin-top: -30px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .cta-button {
+    width: 237px;
+    height: 56px;
+  }
+}
+
+.step-special {
+  margin-top: 40px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+@media screen and (min-width: 650px) {
+  .step-special {
+    display: none;
+  }
+}
+
+.steps {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 320px;
+}
+@media screen and (min-width: 650px) {
+  .steps {
+    max-width: 640px;
+    margin-inline: auto;
+    align-items: flex-start;
+  }
+}
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+  .steps {
+    max-width: 950px;
+    margin-inline: auto;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .steps {
+    max-width: 980px;
+    margin-top: 60px;
+    margin-inline: auto;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .step-1 {
+    width: 180px;
+    height: 161px;
+  }
+  .step-2 {
+    width: 180px;
+    height: 159px;
+  }
+
+  .step-3 {
+    width: 180px;
+    height: 198px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .step {
+    width: 264px;
+    height: 64px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .step {
+    width: 330px;
+    height: 80px;
+  }
+}
+
+.payment-special {
+  display: none;
+}
+@media screen and (min-width: 650px) {
+  .payment-special {
+    width: 206px;
+    height: 64px;
+    display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .payment-special {
+    width: 154px;
+    height: 48px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .payment-special {
+    width: 180px;
+  }
+}
+
+.payments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  padding-bottom: 34px;
+}
+@media screen and (min-width: 650px) {
+  .payments {
+    gap: 42px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .payments {
+    gap: 95px;
+  }
+}
+
+.payment {
+  height: 16px;
+}
+
+.cta-button {
+  transition: 1s all;
+  cursor: pointer;
+}
+.cta-button:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.text-footer {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (min-width: 650px) {
+  .text-footer {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .text-footer {
+    max-width: 1740px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .terms-button {
+    width: 240px;
+    height: 48px;
+    margin-bottom: 47px;
+  }
+} /*# sourceMappingURL=style.css.map */
