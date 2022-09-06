@@ -260,6 +260,7 @@ body {
 @media screen and (min-width: 650px) {
   .payments {
     gap: 42px;
+    margin-right: 40px;
   }
 }
 @media screen and (min-width: 1024px) {
